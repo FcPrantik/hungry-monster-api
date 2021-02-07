@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I am Hungry</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "wrapper">
+      <div class = "search">
+        
+        <div class = "search-box">
+          <input type = "text" class = "search-control" placeholder="Search for Meal..." id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            search
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <div id= "meal">
+        </div>
+      </div>
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src = "script.js"></script>
+</body>
+</html>
